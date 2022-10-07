@@ -23,44 +23,68 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="1393" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="467" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="yXLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="28" pref="28" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="154" max="-2" attributes="0"/>
-                              <Component id="instruccionText" min="-2" pref="783" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="y1" min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                                      <Component id="y1" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Component id="x1y2" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="x1y3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="x1y4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="x1y5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="y1x2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y1x3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y1x4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y1x5" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="add1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="y2" min="-2" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Group type="103" groupAlignment="1" attributes="0">
-                                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Component id="y1x2" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y1x3" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y1x4" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y1x5" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="add1" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="y2" min="-2" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" alignment="0" attributes="0">
                                                       <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
@@ -151,26 +175,13 @@
                                               </Group>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                              <Component id="x1y2" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="x1y3" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="x1y4" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="x1y5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="203" max="-2" attributes="0"/>
+                                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="SigPaso" min="-2" pref="121" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
-                                      <Component id="OmiPaso" min="-2" pref="121" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="y5" min="-2" max="-2" attributes="0"/>
@@ -185,1242 +196,1250 @@
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="regresarButton" min="-2" pref="112" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                  <Component id="x5y1" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="x5y2" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="x5y3" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="x5y4" min="-2" max="-2" attributes="0"/>
-                                              </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                              <Component id="x5y1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x5y2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x5y3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x5y4" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="My1" min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="My1" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="add6" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="y1x2V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y1x3V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y1x4V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y1x5V" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="My2" min="-2" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="add8" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="y2x1V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y2x3V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y2x4V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y2x5V" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                      <Component id="x2y1V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x2y3V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x2y4V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x2y5V" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="My3" min="-2" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                      <Component id="x3y1V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x3y2V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x3y4V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x3y5V" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="add5" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="y3x1V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y3x2V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y3x4V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y3x5V" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="My4" min="-2" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                      <Component id="x4y1V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x4y2V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x4y3V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x4y5V" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="add7" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="y4x1V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y4x2V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y4x3V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="y4x5V" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
+                                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="add6" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                              <Component id="x1y2V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="y1x2V" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="x1y3V" min="-2" max="-2" attributes="0"/>
+                                              <Component id="y1x3V" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="x1y4V" min="-2" max="-2" attributes="0"/>
+                                              <Component id="y1x4V" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="x1y5V" min="-2" max="-2" attributes="0"/>
+                                              <Component id="y1x5V" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="My2" min="-2" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Component id="My5" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="y5x1V" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="y5x2V" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="y5x3V" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="y5x4V" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="add8" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                      <Component id="x5y1V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x5y2V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x5y3V" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="x5y4V" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="y2x1V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y2x3V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y2x4V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y2x5V" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                              <Component id="x2y1V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x2y3V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x2y4V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x2y5V" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="My3" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                              <Component id="x3y1V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x3y2V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x3y4V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x3y5V" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="add5" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="y3x1V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y3x2V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y3x4V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y3x5V" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="My4" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                              <Component id="x4y1V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x4y2V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x4y3V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x4y5V" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="add7" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="y4x1V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y4x2V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y4x3V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="y4x5V" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="yXLabel1" min="-2" max="-2" attributes="0"/>
-                                          <Group type="102" attributes="0">
-                                              <Component id="rY1" min="-2" pref="101" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="add9" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                              <Component id="rY2" min="-2" pref="101" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="add10" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                                              <Component id="rY3" min="-2" pref="101" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Component id="x1y2V" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="x1y3V" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="x1y4V" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="x1y5V" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="rY1" min="-2" pref="101" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="add9" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Component id="rY2" min="-2" pref="101" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="add10" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="rY3" min="-2" pref="101" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="add11" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="rY4" min="-2" pref="101" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="add12" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="rY5" min="-2" pref="101" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="My5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="y5x1V" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="y5x2V" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="y5x3V" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="y5x4V" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" attributes="0">
-                                              <Component id="rY4" min="-2" pref="101" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="add12" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                                              <Component id="rY5" min="-2" pref="101" max="-2" attributes="0"/>
+                                          <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                              <Component id="x5y1V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x5y2V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x5y3V" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="x5y4V" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <Component id="resultadoLabel" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
                           </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="119" pref="119" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="234" max="-2" attributes="0"/>
+                                      <Component id="yXLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                                      <Component id="resultadoLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="instruccionText" min="-2" pref="783" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                      <Component id="SigPaso" min="-2" pref="121" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                                      <Component id="OmiPaso" min="-2" pref="121" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="193" max="-2" attributes="0"/>
+                                      <Component id="regresarButton" min="-2" pref="112" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
                       </Group>
+                      <EmptySpace pref="162" max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="196" max="32767" attributes="0"/>
           </Group>
-      </Group>
-    </DimensionLayout>
-    <DimensionLayout dim="1">
-      <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="656" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="y5x1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="y5x2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="y5x3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="y5x4" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="x5y1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x5y2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x5y3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x5y4" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="y2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="y2x1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y2x3" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y2x4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y2x5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="y5x1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="y5x2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="y5x3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="y5x4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="x5y1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x5y2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x5y3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x5y4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="y2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="y2x1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y2x3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y2x4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y2x5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="add2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="add2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x2y1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x2y3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x2y4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x2y5" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="x2y1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x2y3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x2y4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x2y5" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                              <Component id="y1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="yXLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="y1x2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y1x3" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y1x4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y1x5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="y1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="yXLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="y1x2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y1x3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y1x4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y1x5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="add1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="add1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x1y2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x1y3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x1y4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x1y5" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="x1y2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x1y3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x1y4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x1y5" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="y3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="y3x1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y3x2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y3x4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y3x5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="y3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="y3x1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y3x2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y3x4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y3x5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="add3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="add3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x3y1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x3y2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x3y4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x3y5" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="x3y1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x3y2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x3y4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x3y5" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="y4" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="y4x1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y4x2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y4x3" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y4x5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="y4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="y4x1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y4x2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y4x3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y4x5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="add4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="y5" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="add4" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Component id="y5" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="x4y1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x4y2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x4y3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x4y5" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="y5x1V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="y5x2V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="y5x3V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="y5x4V" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="x5y1V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x5y2V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x5y3V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x5y4V" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="My2" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="y2x1V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y2x3V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y2x4V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y2x5V" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="add8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x4y1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x4y2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x4y3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x4y5" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="x2y1V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x2y3V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x2y4V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x2y5V" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="My1" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="y1x2V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y1x3V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y1x4V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y1x5V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="y5x1V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="y5x2V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="y5x3V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="y5x4V" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="add6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x5y1V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x5y2V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x5y3V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x5y4V" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="My2" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="y2x1V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y2x3V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y2x4V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y2x5V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="add8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="x2y1V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x2y3V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x2y4V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x2y5V" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="My1" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="y1x2V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y1x3V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y1x4V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y1x5V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="add6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="x1y2V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x1y3V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x1y4V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x1y5V" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="My3" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="y3x1V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y3x2V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y3x4V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y3x5V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="add5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="x3y1V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x3y2V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x3y4V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x3y5V" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="My4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="My5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="y4x1V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y4x2V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y4x3V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="y4x5V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="add7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="x4y1V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x4y2V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x4y3V" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="x4y5V" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="x1y2V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x1y3V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x1y4V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x1y5V" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rY3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                          <Component id="rY1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                          <Component id="rY2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                          <Component id="add9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="add10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rY4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                          <Component id="add11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rY5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                          <Component id="add12" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="My3" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="y3x1V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y3x2V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y3x4V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y3x5V" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="add5" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace pref="66" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="x3y1V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x3y2V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x3y4V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x3y5V" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="yXLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="resultadoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="My4" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="My5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="y4x1V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y4x2V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y4x3V" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="y4x5V" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="add7" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                      <Component id="instruccionText" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SigPaso" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="OmiPaso" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="regresarButton" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="x4y1V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x4y2V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x4y3V" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="x4y5V" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="88" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="rY3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                  <Component id="rY1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                  <Component id="rY2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                  <Component id="add9" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="add10" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="rY4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                  <Component id="add11" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="rY5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                  <Component id="add12" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="yXLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="resultadoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-              <Component id="instruccionText" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="SigPaso" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="OmiPaso" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="regresarButton" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
           </Group>
-      </Group>
-    </DimensionLayout>
-  </Layout>
-  <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel1">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="36" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Procedimiento"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="yXLabel">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="y (x) ="/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y1">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="-------------------------------------"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y1x2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y1x3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y1x4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y1x5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x1y2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x1y3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x1y4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x1y5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add1">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y2x1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y2x3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y2x4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y2x5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="-------------------------------------"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x2y4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x2y3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x2y1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x2y5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y3x2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x3y5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x3y1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y3x1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x3y4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y3x4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y3x5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x3y2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y3">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add3">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="-------------------------------------"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x4y2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x4y3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x4y1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y4x5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x4y5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add4">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y4">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y4x3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y4x2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y4x1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="-------------------------------------"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x5y2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x5y3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x5y1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y5x4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x5y4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(1 - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y5">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y5x3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y5x2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y5x1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x - 0)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel6">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="-------------------------------------"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="instruccionText">
-      <Properties>
-        <Property name="editable" type="boolean" value="false"/>
-        <Property name="text" type="java.lang.String" value="Se comienza el procedimiento, escribiendo la f&#xf3;rmula."/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="SigPaso">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="14" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Siguiente Paso"/>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="SigPasoMouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="OmiPaso">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="14" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Omitir Pasos"/>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="OmiPasoMouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="regresarButton">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="14" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Regresar"/>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="regresarButtonMouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x3y5V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x3y1V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x5y3V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x5y1V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y5x4V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x5y4V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="My5">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y5x3V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y3x1V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y5x2V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x3y4V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y5x1V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y3x4V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel7">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="-------------------------------------"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y3x5V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x3y2V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="My3">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add5">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel8">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="-------------------------------------"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x4y2V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x4y3V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="My1">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel9">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="-------------------------------------"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y1x2V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y1x3V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y1x4V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y1x5V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x1y2V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x1y3V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x1y4V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x1y5V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add6">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="My2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y2x1V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y2x3V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y2x4V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x4y1V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y4x5V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x4y5V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add7">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="My4">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y4x3V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y4x2V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y2x5V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y4x1V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add8">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel10">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="-------------------------------------"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel11">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="-------------------------------------"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x5y2V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x2y4V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x2y3V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x2y1V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="x2y5V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(-----)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="y3x2V">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="(x)"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="yXLabel1">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="y (x) ="/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="rY3">
-      <Properties>
-        <Property name="editable" type="boolean" value="false"/>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="----"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="rY1">
-      <Properties>
-        <Property name="editable" type="boolean" value="false"/>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="----"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="rY2">
-      <Properties>
-        <Property name="editable" type="boolean" value="false"/>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="----"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add9">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add10">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add11">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="rY4">
-      <Properties>
-        <Property name="editable" type="boolean" value="false"/>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="----"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="add12">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="rY5">
-      <Properties>
-        <Property name="editable" type="boolean" value="false"/>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="----"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="resultadoLabel">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="36" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="???"/>
-      </Properties>
-    </Component>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="y3x4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y3x5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x3y2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-------------------------------------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x4y2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x4y3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x4y1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y4x5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x4y5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y4x3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y4x2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y4x1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-------------------------------------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x5y2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x5y3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x5y1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y5x4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x5y4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y5x3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y5x2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y5x1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-------------------------------------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="instruccionText">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="Se comienza el procedimiento, escribiendo la f&#xf3;rmula."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="SigPaso">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Siguiente Paso"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="SigPasoMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="OmiPaso">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Omitir Pasos"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="OmiPasoMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="regresarButton">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Regresar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="regresarButtonMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x3y5V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x3y1V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x5y3V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x5y1V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y5x4V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x5y4V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="My5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y5x3V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="My4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y3x1V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y4x3V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y4x2V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y2x5V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y4x1V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-------------------------------------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-------------------------------------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x5y2V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y5x2V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x3y4V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y5x1V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y3x4V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-------------------------------------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y3x5V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x3y2V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="My3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x2y4V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x2y3V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-------------------------------------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x2y1V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x2y5V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y3x2V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="yXLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="y (x) ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="rY3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="----"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="rY1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="----"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="rY2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="----"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x4y2V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x4y3V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="My1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-------------------------------------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y1x2V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y1x3V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y1x4V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y1x5V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x1y2V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x1y3V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="rY4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="----"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="yXLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="y (x) ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="rY5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="----"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-------------------------------------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resultadoLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="36" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y1x2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y1x3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y1x4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y1x5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x1y2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x1y4V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x1y5V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="My2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y2x1V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y2x3V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y2x4V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x4y1V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x1y3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y4x5V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x1y4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x4y5V">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(-----)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x1y5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y2x1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y2x3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y2x4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y2x5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-------------------------------------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x2y4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x2y3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x2y1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x2y5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y3x2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x3y5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x3y1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="y3x1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(x - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="x3y4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(1 - 0)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="36" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Procedimiento"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
   </SubComponents>
 </Form>
