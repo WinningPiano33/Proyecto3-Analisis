@@ -647,10 +647,20 @@ public class entradaDatos extends javax.swing.JFrame {
         // TODO add your handling code here:
         setVariables();
         switch(campNum) {
+            case 3:
+                resultado3 Rtr = new resultado3(vx1, vx2, vx3,
+                vy1, vy2, vy3, vyB);
+                Rtr.setVisible(true);
+                this.setVisible(false);
+            case 4:
+                resultado4 Rcu = new resultado4(vx1, vx2, vx3, vx4,
+                vy1, vy2, vy3, vy4, vyB);
+                Rcu.setVisible(true);
+                this.setVisible(false);
             case 5:
-                resultado5 R = new resultado5(vx1, vx2, vx3, vx4, vx5,
+                resultado5 Rci = new resultado5(vx1, vx2, vx3, vx4, vx5,
                 vy1, vy2, vy3, vy4, vy5, vyB);
-                R.setVisible(true);
+                Rci.setVisible(true);
                 this.setVisible(false);
             break;
         }
