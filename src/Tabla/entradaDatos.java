@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package Tabla;
-
+import javax.swing.JOptionPane;
 /**
  *
  * @author WinningPiano33
@@ -21,7 +21,7 @@ public class entradaDatos extends javax.swing.JFrame {
     int campNum = 3;
     String vx1, vx2, vx3, vx4, vx5,
             vy1, vy2, vy3, vy4, vy5, vyB;
-    
+    int check;
     private void campoChange() {
         switch(campNum) {
             case 3:
@@ -83,7 +83,24 @@ public class entradaDatos extends javax.swing.JFrame {
         }
     }
     
-    
+    public void validacionCheck() {
+        try {
+                check = Integer.parseInt(vx1);
+                check = Integer.parseInt(vx2);
+                check = Integer.parseInt(vx3);
+                check = Integer.parseInt(vy1);
+                check = Integer.parseInt(vy2);
+                check = Integer.parseInt(vy3);
+                check = Integer.parseInt(vyB);
+                check = Integer.parseInt(vx4);
+                check = Integer.parseInt(vy4);
+                check = Integer.parseInt(vx5);
+                check = Integer.parseInt(vy5);
+            } catch(NumberFormatException e) {
+                JOptionPane.showMessageDialog(null, "Inserte valores enteros, y no ningún otro tipo de caracter.");
+                return;
+            }
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
